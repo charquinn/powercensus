@@ -42,7 +42,10 @@ let
 						Record.FromList({2015, "114"}, type [year = number, meeting = text]),
 						Record.FromList({2016, "115"}, type [year = number, meeting = text]),
 						Record.FromList({2017, "115"}, type [year = number, meeting = text]),
-						Record.FromList({2018, "116"}, type [year = number, meeting = text])
+						Record.FromList({2018, "116"}, type [year = number, meeting = text]),
+						Record.FromList({2019, "116"}, type [year = number, meeting = text]),
+						Record.FromList({2020, "117"}, type [year = number, meeting = text]),
+						Record.FromList({2021, "117"}, type [year = number, meeting = text])
 					}
 				}, 
 				type [geography = text, gazetteerUrlPart = text, numOfColumns = number, zipUrlPart = text, zipId = text, yearList = list]
